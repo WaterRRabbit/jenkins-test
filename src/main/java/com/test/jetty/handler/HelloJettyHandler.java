@@ -17,7 +17,7 @@ public class HelloJettyHandler extends AbstractHandler {
         //设置响应状态吗
         httpServletResponse.setStatus(HttpServletResponse.SC_OK);
         //写响应数据
-        httpServletResponse.getWriter().write("<h1>Hello Jetty!</h1>");
+        httpServletResponse.getWriter().write("<h1>Hello Jenkins!</h1>");
         //标记请求已处理，handle链
         request.setHandled(true);
     }
